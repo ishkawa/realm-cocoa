@@ -1427,6 +1427,7 @@
 						CreatedOnToolsVersion = 6.0;
 						DevelopmentTeam = QX5CR2FTN2;
 						DevelopmentTeamName = "Realm ApS";
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 					};
 					5D0A40841C62ACCC00BBB612 = {
@@ -1435,6 +1436,7 @@
 					5D659E7D1BE04556006515A0 = {
 						DevelopmentTeam = QX5CR2FTN2;
 						DevelopmentTeamName = "Realm ApS";
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 					};
 					5D660FCB1BE98C560021E04F = {
@@ -1458,6 +1460,7 @@
 					};
 					C04B4BD71B55C47600FAE58E = {
 						CreatedOnToolsVersion = 6.4;
+						LastSwiftMigration = 0800;
 					};
 					E83EAC791BED3D880085CCD2 = {
 						CreatedOnToolsVersion = 7.1;
@@ -2068,6 +2071,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5D6156F71BE07B6B00A4BD3F /* TestHost.xcconfig */;
 			buildSettings = {
+				SWIFT_VERSION = 2.3;
 			};
 			name = Debug;
 		};
@@ -2075,6 +2079,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5D6156F71BE07B6B00A4BD3F /* TestHost.xcconfig */;
 			buildSettings = {
+				SWIFT_VERSION = 2.3;
 			};
 			name = Release;
 		};
@@ -2096,6 +2101,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5D659E761BE03E0D006515A0 /* Realm.xcconfig */;
 			buildSettings = {
+				SWIFT_VERSION = 2.3;
 			};
 			name = Debug;
 		};
@@ -2103,6 +2109,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5D659E761BE03E0D006515A0 /* Realm.xcconfig */;
 			buildSettings = {
+				SWIFT_VERSION = 2.3;
 			};
 			name = Release;
 		};
@@ -2154,6 +2161,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = "";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Debug;
 		};
@@ -2163,6 +2171,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = "";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Release;
 		};
@@ -2219,6 +2228,7 @@
 			baseConfigurationReference = 5DD755E01BE05C19002800DA /* Tests.xcconfig */;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Debug;
 		};
@@ -2227,6 +2237,7 @@
 			baseConfigurationReference = 5DD755E01BE05C19002800DA /* Tests.xcconfig */;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Release;
 		};
