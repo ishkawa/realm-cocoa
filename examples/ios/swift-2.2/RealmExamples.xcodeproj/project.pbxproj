@@ -38,10 +38,6 @@
 		E886FB671A12A73E00CB2D0B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E886FB631A12A73E00CB2D0B /* AppDelegate.swift */; };
 		E886FB681A12A73E00CB2D0B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E886FB641A12A73E00CB2D0B /* Images.xcassets */; };
 		E886FB6A1A12A73E00CB2D0B /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E886FB661A12A73E00CB2D0B /* TableViewController.swift */; };
-		E8CA270B1CF9031300FF203A /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C07E5D791B15001500ED625C /* Realm.framework */; };
-		E8CA270C1CF9031300FF203A /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C09C490F1A605A4800638C9F /* RealmSwift.framework */; };
-		E8CA270D1CF9031600FF203A /* Realm.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = C07E5D791B15001500ED625C /* Realm.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		E8CA270E1CF9031600FF203A /* RealmSwift.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = C09C490F1A605A4800638C9F /* RealmSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		E8CB088219BA6AEE0018434A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CB088019BA6AEE0018434A /* AppDelegate.swift */; };
 		E8CB088A19BA6AF70018434A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CB088519BA6AF70018434A /* AppDelegate.swift */; };
 		E8CB088B19BA6AF70018434A /* default-v0.realm in Resources */ = {isa = PBXBuildFile; fileRef = E8CB088619BA6AF70018434A /* default-v0.realm */; };
@@ -64,7 +60,6 @@
 		E8D212FB1AF6AA0600DAB243 /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C09C490F1A605A4800638C9F /* RealmSwift.framework */; };
 		E8D212FC1AF6AA0600DAB243 /* RealmSwift.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = C09C490F1A605A4800638C9F /* RealmSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		E8D3F2781A11766A00620884 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D3F2761A11766A00620884 /* AppDelegate.swift */; };
-		E8F14D131CF8FD7F00564AF5 /* PlaygroundFrameworkWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F14D121CF8FD7F00564AF5 /* PlaygroundFrameworkWrapper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -146,17 +141,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E8F14D141CF900E500564AF5 /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				E8CA270D1CF9031600FF203A /* Realm.framework in CopyFiles */,
-				E8CA270E1CF9031600FF203A /* RealmSwift.framework in CopyFiles */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -199,7 +183,6 @@
 		E8D3F2531A11765200620884 /* Backlink.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Backlink.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8D3F2761A11766A00620884 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = AppDelegate.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		E8D3F2771A11766A00620884 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E8F14D0A1CF8FD0C00564AF5 /* PlaygroundFrameworkWrapper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PlaygroundFrameworkWrapper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8F14D0E1CF8FD0C00564AF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E8F14D121CF8FD7F00564AF5 /* PlaygroundFrameworkWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaygroundFrameworkWrapper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -266,15 +249,6 @@
 			files = (
 				C07E5D7A1B15003B00ED625C /* Realm.framework in Frameworks */,
 				E8D212F11AF6A9E800DAB243 /* RealmSwift.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E8F14D061CF8FD0C00564AF5 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E8CA270B1CF9031300FF203A /* Realm.framework in Frameworks */,
-				E8CA270C1CF9031300FF203A /* RealmSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -357,7 +331,6 @@
 				E8CB085E19BA6ACA0018434A /* Simple.app */,
 				E8CB083919BA6AC60018434A /* TableView.app */,
 				5D8DD5361C62C572005077F2 /* ReactKitTableView.app */,
-				E8F14D0A1CF8FD0C00564AF5 /* PlaygroundFrameworkWrapper.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -572,23 +545,6 @@
 			productReference = E8D3F2531A11765200620884 /* Backlink.app */;
 			productType = "com.apple.product-type.application";
 		};
-		E8F14D091CF8FD0C00564AF5 /* PlaygroundFrameworkWrapper */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E8F14D111CF8FD0C00564AF5 /* Build configuration list for PBXNativeTarget "PlaygroundFrameworkWrapper" */;
-			buildPhases = (
-				E8F14D051CF8FD0C00564AF5 /* Sources */,
-				E8F14D061CF8FD0C00564AF5 /* Frameworks */,
-				E8F14D141CF900E500564AF5 /* CopyFiles */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = PlaygroundFrameworkWrapper;
-			productName = PlaygroundFrameworkWrapper;
-			productReference = E8F14D0A1CF8FD0C00564AF5 /* PlaygroundFrameworkWrapper.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -617,9 +573,6 @@
 					E8D3F2521A11765200620884 = {
 						CreatedOnToolsVersion = 6.1;
 					};
-					E8F14D091CF8FD0C00564AF5 = {
-						CreatedOnToolsVersion = 7.3.1;
-					};
 				};
 			};
 			buildConfigurationList = E805759019BA55E600376620 /* Build configuration list for PBXProject "RealmExamples" */;
@@ -642,7 +595,6 @@
 				E8CB085D19BA6ACA0018434A /* Simple */,
 				E8CB083819BA6AC60018434A /* TableView */,
 				5D8DD5351C62C572005077F2 /* ReactKitTableView */,
-				E8F14D091CF8FD0C00564AF5 /* PlaygroundFrameworkWrapper */,
 			);
 		};
 /* End PBXProject section */
@@ -848,14 +800,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				E8D3F2781A11766A00620884 /* AppDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E8F14D051CF8FD0C00564AF5 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E8F14D131CF8FD7F00564AF5 /* PlaygroundFrameworkWrapper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1141,52 +1085,6 @@
 			};
 			name = Release;
 		};
-		E8F14D0F1CF8FD0C00564AF5 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ANALYZER_NONNULL = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = PlaygroundFrameworkWrapper/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = io.realm.PlaygroundFrameworkWrapper;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		E8F14D101CF8FD0C00564AF5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ANALYZER_NONNULL = YES;
-				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = PlaygroundFrameworkWrapper/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = io.realm.PlaygroundFrameworkWrapper;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1258,15 +1156,6 @@
 			buildConfigurations = (
 				E8D3F26F1A11765200620884 /* Debug */,
 				E8D3F2701A11765200620884 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E8F14D111CF8FD0C00564AF5 /* Build configuration list for PBXNativeTarget "PlaygroundFrameworkWrapper" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E8F14D0F1CF8FD0C00564AF5 /* Debug */,
-				E8F14D101CF8FD0C00564AF5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
